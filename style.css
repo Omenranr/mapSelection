@@ -1,0 +1,58 @@
+#map {
+    height: 75%;
+    width: 55%;
+    margin-left: 35%;
+    margin-top: 5%;
+    position: relative;
+}
+
+#search_form {
+    margin-top: 5%;
+    margin-left: 5%;
+    position: absolute;
+}
+
+#color {
+    background-color: #40404014;
+    height: 30px;
+}
+
+.inputbox {
+    height: 30px;
+    font-size: 16px;
+}
+
+.button {
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 16px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}

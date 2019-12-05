@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Map Selection Proto1</title>
+	<meta name="viewport" content="initial-scale=1.0">
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    type="text/css">
+	<script type="text/javascript" src="beautify.js"></script>
+	<script type="text/javascript" src="GeoJSON.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="search_form">
+		<form id="form">
+			<input id="place" class="inputbox" type="text" name="search">
+			<select id="color">
+				<option value="#0000FF">Blue</option>
+				<option value="#FF0000">Red</option>
+				<option value="#00FF00">Green</option>
+			</select>
+			<button id="apply" class="button button1" type="button">Search</button>
+		</form>
+	</div>
+	<div id="map"></div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.15.0/jquery.validate.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script src="mapScript.js"></script>
+	<script src="frontScript.js"></script>
+	<script>
+		var initMap = function () {
+			initialize();
+		}
+	</script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCx9GT-2M3aXMhx2Ge8V3k5xXfuL1RKl_s&libraries=places,geometry&callback=initMap" async defer></script>
+</body>
+</html>
