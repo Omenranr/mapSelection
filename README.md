@@ -1,0 +1,2 @@
+# mapSelection
+Map shape handling
